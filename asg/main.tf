@@ -92,7 +92,7 @@ connection_draining_timeout = 400
 
 
 resource "aws_route53_record" "blog" {
-  zone id = "Z086328220HREXC4JS33X"
+  zone_id = "Z086328220HREXC4JS33X"
   name = "blog"
   type = "CNAME"
   ttl  = 5
